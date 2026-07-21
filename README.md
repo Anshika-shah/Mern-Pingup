@@ -343,11 +343,11 @@ If you like this project, consider giving it a ⭐ on GitHub!
 
 **Your Name**
 
-GitHub: https://github.com/your-username
+GitHub: (https://github.com/Anshika-shah)
 
-LinkedIn: https://linkedin.com/in/your-profile
+LinkedIn: linkedin.com/in/anshika-shah-38aaa0307
 
-Email: your-email@example.com
+Email: anshika2004shah@gmail.com
 
 ---
 
