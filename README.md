@@ -345,7 +345,7 @@ If you like this project, consider giving it a ⭐ on GitHub!
 
 GitHub: (https://github.com/Anshika-shah)
 
-LinkedIn: linkedin.com/in/anshika-shah-38aaa0307
+LinkedIn: www.linkedin.com/in/anshika-shah-38aaa0307
 
 Email: anshika2004shah@gmail.com
 
