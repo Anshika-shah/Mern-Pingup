@@ -246,31 +246,31 @@ npm run dev
 
 ## Login Page
 
-![Login](screenshots/login.png)
+[Login](images/login.png)
 
 ---
 
 ## Home Feed
 
-![Feed](screenshots/home.png)
+[Feed](images/Feed.png)
 
 ---
 
 ## Stories
 
-![Stories](screenshots/stories.png)
+[Story](images/story.png)
 
 ---
 
 ## Chat
 
-![Chat](screenshots/chat.png)
+[Chats](images/chats.png)
 
 ---
 
 ## Profile
 
-![Profile](screenshots/profile.png)
+![Profile](images/Profile.png)
 
 ---
 
