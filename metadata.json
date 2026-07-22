@@ -1,0 +1,6 @@
+{
+  "name": "PingUp",
+  "description": "A premium social network designed for creative developers and designers. Features real-time direct messaging, friends stories, and integrated Gemini AI assisting with smart chat replies, connection matching, and content moderation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

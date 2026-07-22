@@ -1,0 +1,382 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "username": "anshikashah",
+      "name": "Anshika Shah",
+      "email": "anshika2004shah@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200&h=200",
+      "coverImage": "https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&q=80&w=800",
+      "bio": "CS Student & Tech Enthusiast | Building awesome web apps in React & Express! Let's connect and create.",
+      "location": "Mumbai, India",
+      "interests": [
+        "React",
+        "TypeScript",
+        "Web Dev",
+        "AI",
+        "UI Design"
+      ],
+      "connections": [
+        "user_2",
+        "user_3"
+      ],
+      "pendingRequests": [
+        {
+          "from": "user_1784617868725",
+          "to": "user_1",
+          "status": "pending"
+        }
+      ],
+      "following": [
+        "user_2",
+        "user_3",
+        "user_5"
+      ],
+      "onlineStatus": true
+    },
+    {
+      "id": "user_2",
+      "username": "alexrivera",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@dev.io",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200&h=200",
+      "coverImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
+      "bio": "Software Engineer @ Google | Love talking about rust, next-gen databases, and photography. Weekend mountaineer!",
+      "location": "San Francisco, USA",
+      "interests": [
+        "Rust",
+        "Distributed Systems",
+        "Cloud Native",
+        "Hiking",
+        "Photography"
+      ],
+      "connections": [
+        "user_1",
+        "user_4"
+      ],
+      "pendingRequests": [],
+      "following": [
+        "user_1",
+        "user_4"
+      ],
+      "onlineStatus": true
+    },
+    {
+      "id": "user_3",
+      "username": "priyanair",
+      "name": "Priya Nair",
+      "email": "priya.nair@design.co",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200",
+      "coverImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
+      "bio": "Lead Product Designer | Creating delightful experiences. Sketching, typography geek, and flat white lover.",
+      "location": "Bengaluru, India",
+      "interests": [
+        "Figma",
+        "UI/UX",
+        "Illustration",
+        "Typography",
+        "Coffee"
+      ],
+      "connections": [
+        "user_1"
+      ],
+      "pendingRequests": [],
+      "following": [
+        "user_1",
+        "user_4"
+      ],
+      "onlineStatus": false
+    },
+    {
+      "id": "user_4",
+      "username": "lucasdurand",
+      "name": "Lucas Durand",
+      "email": "lucas.durand@creative.org",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200&h=200",
+      "coverImage": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&q=80&w=800",
+      "bio": "Travel Photographer & Filmmaker. Capturing stories of remote places and unique communities around the globe.",
+      "location": "Paris, France",
+      "interests": [
+        "Photography",
+        "Filmmaking",
+        "Travel",
+        "Adventure",
+        "Vlog"
+      ],
+      "connections": [
+        "user_2"
+      ],
+      "pendingRequests": [
+        {
+          "from": "user_4",
+          "to": "user_1",
+          "status": "pending"
+        }
+      ],
+      "following": [
+        "user_2"
+      ],
+      "onlineStatus": true
+    },
+    {
+      "id": "user_5",
+      "username": "sophiam",
+      "name": "Sophia Martinez",
+      "email": "sophia.m@nature.net",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200&h=200",
+      "coverImage": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=800",
+      "bio": "Botanist & Nature Conservator | Sharing the beautiful mysteries of plants and trail guides.",
+      "location": "Denver, USA",
+      "interests": [
+        "Botany",
+        "Conservation",
+        "Hiking",
+        "Gardening",
+        "Outdoors"
+      ],
+      "connections": [],
+      "pendingRequests": [],
+      "following": [],
+      "onlineStatus": false
+    },
+    {
+      "id": "user_1784617868725",
+      "username": "anamika",
+      "name": "Anamika",
+      "email": "anamika@gmail.com",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200&h=200",
+      "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800",
+      "bio": "Proud member of PingUp! Excited to connect with creative developers and thinkers here.",
+      "location": "World Citizen",
+      "interests": [
+        "PingUp",
+        "Networking",
+        "AI"
+      ],
+      "connections": [],
+      "pendingRequests": [],
+      "following": [
+        "user_1",
+        "user_2"
+      ],
+      "onlineStatus": true
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_1",
+      "userId": "user_2",
+      "userName": "Alex Rivera",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200&h=200",
+      "content": "Just deployed our new high-throughput event processing pipeline written entirely in Rust! Latency reduced by 42%. Absolutely mind-blown by the performance compile-time safety brings. Check out the setup below 🚀",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800"
+      ],
+      "likes": [
+        "user_1",
+        "user_3"
+      ],
+      "comments": [
+        {
+          "id": "comment_1_1",
+          "userId": "user_1",
+          "userName": "Anshika Shah",
+          "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200&h=200",
+          "content": "This looks incredibly cool Alex! Rust is definitely on my list to learn next.",
+          "createdAt": "2026-07-21T05:10:23.188Z"
+        },
+        {
+          "id": "comment_1_2",
+          "userId": "user_3",
+          "userName": "Priya Nair",
+          "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200",
+          "content": "Is there a github repo or open source blog post detailing the architecture?",
+          "createdAt": "2026-07-21T06:10:23.189Z"
+        }
+      ],
+      "createdAt": "2026-07-21T02:10:23.189Z"
+    },
+    {
+      "id": "post_2",
+      "userId": "user_3",
+      "userName": "Priya Nair",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200",
+      "content": "Spending my Sunday morning wireframing a new wellness app concept. Love utilizing generous negative space and soft, earthy color palettes to instill a feeling of calmness. What do you think about this login interface? 🌸🎨",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800"
+      ],
+      "likes": [
+        "user_1",
+        "user_2"
+      ],
+      "comments": [
+        {
+          "id": "comment_2_1",
+          "userId": "user_1",
+          "userName": "Anshika Shah",
+          "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200&h=200",
+          "content": "Beautifully minimal! The soft typography is so premium.",
+          "createdAt": "2026-07-20T21:10:23.189Z"
+        }
+      ],
+      "createdAt": "2026-07-20T19:10:23.189Z"
+    },
+    {
+      "id": "post_3",
+      "userId": "user_4",
+      "userName": "Lucas Durand",
+      "userAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200&h=200",
+      "content": "Golden Hour at the French Alps. After hours of climbing, the clouds parted right at sunset to reveal this magnificent peak. Moments like these make all the heavy gear worth carrying. 🏔️✨",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1472214222541-d510753a49fa?auto=format&fit=crop&q=80&w=800"
+      ],
+      "likes": [
+        "user_2"
+      ],
+      "comments": [],
+      "createdAt": "2026-07-20T07:10:23.189Z"
+    }
+  ],
+  "stories": [
+    {
+      "id": "story_1",
+      "userId": "user_2",
+      "userName": "Alex Rivera",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200&h=200",
+      "type": "text",
+      "content": "linear-gradient(135deg, #13b5e4 0%, #4a56e2 100%)||Keyboard clicks and hot black coffee. Ready to debug!",
+      "createdAt": "2026-07-21T07:10:23.189Z"
+    },
+    {
+      "id": "story_2",
+      "userId": "user_3",
+      "userName": "Priya Nair",
+      "userAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200",
+      "type": "image",
+      "content": "Designing new brand icons!",
+      "mediaUrl": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&q=80&w=400",
+      "createdAt": "2026-07-21T07:10:23.189Z"
+    },
+    {
+      "id": "story_3",
+      "userId": "user_4",
+      "userName": "Lucas Durand",
+      "userAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200&h=200",
+      "type": "image",
+      "content": "En route to the next peak 🚠",
+      "mediaUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=400",
+      "createdAt": "2026-07-21T07:10:23.189Z"
+    },
+    {
+      "id": "story_1784617891060",
+      "userId": "user_1784617868725",
+      "userName": "Anamika",
+      "userAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200&h=200",
+      "type": "text",
+      "content": "linear-gradient(135deg, #f59e0b 0%, #e11d48 100%)||jkkiigghg",
+      "createdAt": "2026-07-21T07:11:31.060Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1",
+      "conversationId": "conv_1_2",
+      "senderId": "user_2",
+      "receiverId": "user_1",
+      "content": "Hi Anshika! Saw your comment on my Rust post. Glad you liked it!",
+      "createdAt": "2026-07-21T04:10:23.189Z"
+    },
+    {
+      "id": "msg_2",
+      "conversationId": "conv_1_2",
+      "senderId": "user_1",
+      "receiverId": "user_2",
+      "content": "Hey Alex! Yes, it genuinely looks amazing. I am a CS student and we do standard systems coding, but Rust seems so modern. Where is a good place to start?",
+      "createdAt": "2026-07-21T05:10:23.189Z"
+    },
+    {
+      "id": "msg_3",
+      "conversationId": "conv_1_2",
+      "senderId": "user_2",
+      "receiverId": "user_1",
+      "content": "I highly recommend starting with \"The Book\" (The Rust Programming Language guide). It is completely free and walks through ownership and borrowing wonderfully!",
+      "createdAt": "2026-07-21T05:40:23.189Z",
+      "aiSuggestedReplies": [
+        "Awesome! I will check \"The Book\" out today.",
+        "Thanks! Do you have any favorite video tutorials too?",
+        "Ownership seems tricky, is it hard to learn?"
+      ]
+    },
+    {
+      "id": "msg_4",
+      "conversationId": "conv_1_3",
+      "senderId": "user_3",
+      "receiverId": "user_1",
+      "content": "Hey Anshika! Let me know if you would like to collaborate on the designs for our next college hackathon project!",
+      "createdAt": "2026-07-21T01:10:23.189Z"
+    },
+    {
+      "id": "msg_5",
+      "conversationId": "conv_1_3",
+      "senderId": "user_1",
+      "receiverId": "user_3",
+      "content": "Oh that would be absolutely incredible Priya! I am working on a social app concept right now actually.",
+      "createdAt": "2026-07-21T02:10:23.189Z",
+      "aiSuggestedReplies": [
+        "Can I share the wireframes with you?",
+        "Let's hop on a call this evening!",
+        "That sounds like a plan."
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_1_2",
+      "participants": [
+        "user_1",
+        "user_2"
+      ],
+      "lastMessage": {
+        "id": "msg_3",
+        "conversationId": "conv_1_2",
+        "senderId": "user_2",
+        "receiverId": "user_1",
+        "content": "I highly recommend starting with \"The Book\" (The Rust Programming Language guide). It is completely free and walks through ownership and borrowing wonderfully!",
+        "createdAt": "2026-07-21T05:40:23.189Z",
+        "aiSuggestedReplies": [
+          "Awesome! I will check \"The Book\" out today.",
+          "Thanks! Do you have any favorite video tutorials too?",
+          "Ownership seems tricky, is it hard to learn?"
+        ]
+      },
+      "unreadCount": {
+        "user_1": 0,
+        "user_2": 0
+      }
+    },
+    {
+      "id": "conv_1_3",
+      "participants": [
+        "user_1",
+        "user_3"
+      ],
+      "lastMessage": {
+        "id": "msg_5",
+        "conversationId": "conv_1_3",
+        "senderId": "user_1",
+        "receiverId": "user_3",
+        "content": "Oh that would be absolutely incredible Priya! I am working on a social app concept right now actually.",
+        "createdAt": "2026-07-21T02:10:23.189Z",
+        "aiSuggestedReplies": [
+          "Can I share the wireframes with you?",
+          "Let's hop on a call this evening!",
+          "That sounds like a plan."
+        ]
+      },
+      "unreadCount": {
+        "user_1": 0,
+        "user_3": 0
+      }
+    }
+  ]
+}
