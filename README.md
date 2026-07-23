@@ -246,25 +246,27 @@ npm run dev
 
 ## Login Page
 
-[Login](images/login.png)
+<p align="center">
+  <img src="images/login.png" width="900">
+</p>
 
 ---
 
 ## Home Feed
 
-[Feed](images/Feed.png)
+![Home Feed](images/Feed.png)
 
 ---
 
 ## Stories
 
-[Story](images/story.png)
+![Stories](images/story.png)
 
 ---
 
 ## Chat
 
-[Chats](images/chats.png)
+![Chats](images/chats.png)
 
 ---
 
